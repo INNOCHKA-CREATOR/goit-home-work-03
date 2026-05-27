@@ -1,0 +1,13 @@
+.section-team {
+    background-color: #f4f4fd;
+}
+
+.team-list-card {
+    background: #fff;
+    
+}
+
+.team-list-card > p, .team-list-card> h3
+{
+    text-align: center;
+}
