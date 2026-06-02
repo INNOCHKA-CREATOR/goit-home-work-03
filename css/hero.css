@@ -1,12 +1,41 @@
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-.section-hero {
-background: #2e2f42;
+#hero {
+    background: var(--hero-background);
 }
 
+.main-title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
+    letter-spacing: var(--letter-spacing-text);
+    text-align: center;
+    color: var(--white-background);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 68px 0px;
+    gap: 48px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    cursor: pointer;
+    background-color: var(--primary-brand);
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-action);
+    color: var(--white-background);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--pressed-state);
+}
