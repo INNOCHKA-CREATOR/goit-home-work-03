@@ -14,7 +14,7 @@
     color: var(--white-background);
 }
 
-.hero-content {
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
